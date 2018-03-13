@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="55px" preserveAspectRatio="none" style="width:144px;height:55px;" version="1.1" viewBox="0 0 144 55" width="144px" zoomAndPan="magnify"><defs><filter height="300%" id="f1lr06gbnqzupv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--entity left--><rect fill="#90EE90" filter="url(#f1lr06gbnqzupv)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="41" x="6" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="16" y="30.9951">left</text><!--entity right--><rect fill="#FF0000" filter="url(#f1lr06gbnqzupv)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="51" x="82" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="92" y="30.9951">right</text><!--link left to right--><path d="M47.0664,26 C56.8497,26 66.6331,26 76.4164,26 " fill="none" id="left-right" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="81.5324,26,72.5324,22,76.5324,26,72.5324,30,81.5324,26" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+rectangle left #lightgreen
+rectangle right #red
+left -r-> right
+@enduml
+
+PlantUML version 1.2018.02(Fri Mar 09 17:20:44 GMT 2018)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_151-b12
+Operating System: Linux
+OS Version: 4.4.0-116-generic
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
